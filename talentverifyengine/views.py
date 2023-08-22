@@ -178,6 +178,7 @@ class EmployeeCsvUploadView(APIView):
                     department = record['department'],
                     role = record['role'],
                     date_started = record['date_started'],
+                    date_left = record['date_left'],
                     duties = record['duties'],
                     )
                 except Exception as e:
